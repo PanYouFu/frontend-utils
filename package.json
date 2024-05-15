@@ -1,0 +1,39 @@
+{
+  "name": "frontend-utils",
+  "description": "使用rollup构建前端公共方法库",
+  "version": "0.0.1",
+  "main": "dist/frontend-utils.esm.js",
+  "commonjs": "dist/frontend-utils.cjs.js",
+  "browser": "dist/frontend-utils.min.js",
+  "typings": "./dist/frontend-utils.d.ts",
+  "dependencies": {
+    "fsevents": "^2.3.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c",
+    "clean": "rimraf dist"
+  },
+  "author": "PanYouFu",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/jest": "^29.5.12",
+    "@typescript-eslint/parser": "^7.8.0",
+    "eslint": "^8.5.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "rollup": "^4.17.2",
+    "tslib": "^2.6.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "package.json"
+  ]
+}

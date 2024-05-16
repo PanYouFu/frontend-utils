@@ -1,4 +1,5 @@
 .eslintrc.js
 rollup.*
-**/*.test.ts
+**/**/*.test.ts
 .prettierrc
+*.json

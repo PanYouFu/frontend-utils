@@ -1,7 +1,17 @@
 /**
+ * 银行卡号格式化 4位一分隔
  *
- * @param {bankNo}
+ * @param bankNo - 银行卡号
  *
+ * @returns 格式化后的银行号号
+ *
+ * @example
+ * ```js
+ * import { formatBankNo } from 'frontend-utils'
+ * const bankNo = formatBankNo('123412341234123')
+ * ```
+ *
+ * @public
  */
 function formatBankNo(bankNo: string): string {
   const testRegexp = /^\d+$/g;

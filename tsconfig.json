@@ -8,7 +8,6 @@
 
     "declaration": true /* 自动创建声明文件(.d.ts) */,
     "declarationDir": "./dist" /* 声明文件目录 */,
-
     "sourceMap": true /* 自动生成sourcemap文件 */,
     "baseUrl": ".",
     "outDir": "./dist" /* 编译输出目录 */,
@@ -16,11 +15,5 @@
     "strict": true /* 启用严格模式 */
   },
   "include": ["src"],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+  "exclude": ["node_modules", "dist", "**/**/__tests__/*"]
 }
-  
-  
-  

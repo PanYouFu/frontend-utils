@@ -17,6 +17,8 @@ function formatBankNo(bankNo: string): string {
   const testRegexp = /^\d+$/g;
   let str = '';
 
+  let unused = '';
+
   if (!testRegexp.test(bankNo)) {
     throw new SyntaxError('请输入正确的银行卡号');
   } else {

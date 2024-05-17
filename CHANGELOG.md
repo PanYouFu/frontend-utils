@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/PanYouFu/frontend-utils/compare/v0.0.2...v0.0.3) (2024-05-17)
+
+
+### Bug Fixes
+
+* **基础配置:** 修改入口文件 ([62b453b](https://github.com/PanYouFu/frontend-utils/commit/62b453b983ee314eb451bb6cde37417f93d2c6dc))
+
 ### 0.0.2 (2024-05-17)
 
 

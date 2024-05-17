@@ -15,7 +15,8 @@
     "test": "jest",
     "build": "npm run clean && rollup -c && api-extractor run --local --verbose",
     "clean": "rimraf dist",
-    "doc:generate": "api-documenter markdown -i temp -o doc"
+    "doc:generate": "api-documenter markdown -i temp -o doc",
+    "commit": "git-cz"
   },
   "husky": {
     "hooks": {

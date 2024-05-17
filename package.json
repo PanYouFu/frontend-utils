@@ -18,7 +18,12 @@
     "clean": "rimraf dist",
     "doc:generate": "api-documenter markdown -i temp -o doc",
     "commit": "git-cz",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "standard-version",
+    "release-major": "standard-version -r major",
+    "release-minor": "standard-version -r minor",
+    "release-patch": "standard-version -r patch",
+    "prepublishOnly": "npm run lint:fix && npm run test && npm run build && npm run doc:generate"
   },
   "lint-staged": {
     "*.{ts,js}": [

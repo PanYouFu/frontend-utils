@@ -1,0 +1,9 @@
+package.json
+/dist
+.eslintignore
+*.png
+.gitignore
+.prettierignore
+LICENSE
+
+

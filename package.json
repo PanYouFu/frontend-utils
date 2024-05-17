@@ -20,12 +20,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && jest -u"
+      "pre-commit": "commitTest lint-staged && jest"
     }
   },
   "lint-staged": {
     "*.{.ts,.js}": [
-      "eslint --ext .tsx,.ts,.js src/",
+      "eslint --fix .tsx,.ts,.js src/",
       "git add"
     ]
   },

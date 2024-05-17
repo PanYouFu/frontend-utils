@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/api-documenter/api-documenter.schema.json",
-  "entryPoint": "./src/frontend-utils.ts",
+  "entryPoint": "./src/utils.ts",
   "projectFolder": "./src",
-  "mainEntryPointFilePath": "<projectFolder>/dist/frontend-utils.d.ts"
+  "mainEntryPointFilePath": "./dist/utils.d.ts"
 }

@@ -46,7 +46,7 @@
    * SUPPORTED TOKENS: <projectFolder>, <packageName>, <unscopedPackageName>
    */
   //  入口文件最重要
-  "mainEntryPointFilePath": "<projectFolder>/dist/youfu-frontend-utils.d.ts",
+  "mainEntryPointFilePath": "./dist/utils.d.ts",
 
   /**
    * A list of NPM package names whose exports should be treated as part of this package.
@@ -203,7 +203,7 @@
     /**
      * (REQUIRED) Whether to generate a doc model file.
      */
-    "enabled": true
+    "enabled": true,
 
     /**
      * The output path for the doc model file.  The file extension should be ".api.json".
@@ -214,7 +214,7 @@
      * SUPPORTED TOKENS: <projectFolder>, <packageName>, <unscopedPackageName>
      * DEFAULT VALUE: "<projectFolder>/temp/<unscopedPackageName>.api.json"
      */
-    // "apiJsonFilePath": "<projectFolder>/temp/<unscopedPackageName>.api.json",
+    "apiJsonFilePath": "./temp/utils.api.json"
 
     /**
      * Whether "forgotten exports" should be included in the doc model file. Forgotten exports are declarations
@@ -263,7 +263,7 @@
      * SUPPORTED TOKENS: <projectFolder>, <packageName>, <unscopedPackageName>
      * DEFAULT VALUE: "<projectFolder>/dist/<unscopedPackageName>.d.ts"
      */
-    "untrimmedFilePath": "<projectFolder>/dist/youfu-frontend-utils.d.ts"
+    "untrimmedFilePath": "./dist/utils.d.ts"
 
     /**
      * Specifies the output path for a .d.ts rollup file to be generated with trimming for an "alpha" release.

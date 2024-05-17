@@ -3,3 +3,4 @@ rollup.*
 **/**/*.test.ts
 .prettierrc
 *.json
+dist

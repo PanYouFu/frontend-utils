@@ -19,15 +19,6 @@ Description
 </th></tr></thead>
 <tbody><tr><td>
 
-[frontend-utils](./frontend-utils.md)
-
-
-</td><td>
-
-
-</td></tr>
-<tr><td>
-
 [youfu-frontend-utils](./youfu-frontend-utils.md)
 
 

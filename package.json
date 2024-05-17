@@ -2,10 +2,10 @@
   "name": "youfu-frontend-utils",
   "description": "使用rollup构建前端公共方法库",
   "version": "0.0.4",
-  "main": "dist/youfu-frontend-utils.esm.js",
-  "commonjs": "dist/youfu-frontend-utils.cjs.js",
-  "browser": "dist/youfu-frontend-utils.min.js",
-  "typings": "./dist/youfu-frontend-utils.d.ts",
+  "main": "dist/utils.esm.js",
+  "commonjs": "dist/utils.cjs.js",
+  "browser": "dist/utils.min.js",
+  "typings": "./dist/utils.d.ts",
   "dependencies": {
     "fsevents": "^2.3.3"
   },

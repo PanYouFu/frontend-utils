@@ -4,25 +4,25 @@ const resolve = require('@rollup/plugin-node-resolve'); // 便于引入第三方
 const commonjs = require('@rollup/plugin-commonjs'); // 处理commonjs
 const terser = require('@rollup/plugin-terser'); // 压缩文件
 
-const { name, version, author } = require('./package.json');
+const { version, author } = require('./package.json');
 
 const banner =
-  `${'/*!\n' + ' * '}${name}.js v${version}\n` +
+  `${'/*!\n' + ' * '}utils.js v${version}\n` +
   ` * (c) 2024-${new Date().getFullYear()} ${author}\n` +
   ` * Released under the MIT License.\n` +
   ` */`;
 
 module.exports = {
-  input: 'src/frontend-utils.ts',
+  input: 'src/utils.ts',
   output: [
     // cjs and esm version
     {
-      file: `dist/${name}.cjs.js`,
+      file: `dist/utils.cjs.js`,
       format: 'cjs',
       banner: banner,
     },
     {
-      file: `dist/${name}.esm.js`,
+      file: `dist/utils.esm.js`,
       format: 'es',
       banner,
     },

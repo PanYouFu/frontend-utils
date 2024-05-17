@@ -310,7 +310,7 @@
               "text": ";\n}"
             }
           ],
-          "fileUrlPath": "dist/frontend-utils.d.ts",
+          "fileUrlPath": "dist/utils.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "frontendUtils",

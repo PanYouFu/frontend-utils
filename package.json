@@ -1,7 +1,7 @@
 {
   "name": "frontend-utils",
   "description": "使用rollup构建前端公共方法库",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/frontend-utils.esm.js",
   "commonjs": "dist/frontend-utils.cjs.js",
   "browser": "dist/frontend-utils.min.js",

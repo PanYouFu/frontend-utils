@@ -3,6 +3,7 @@
 前端公共方法库
 
 项目地址：https://github.com/PanYouFu/frontend-utils
+研发记录：https://github.com/PanYouFu/frontend-utils/blob/develop/summary.md
 
 # 安装
 

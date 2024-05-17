@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/PanYouFu/frontend-utils/compare/v0.0.3...v0.0.4) (2024-05-17)
+
+
+### Bug Fixes
+
+* **声明文件:** 声明文件名称更改 ([924e1c4](https://github.com/PanYouFu/frontend-utils/commit/924e1c42d81af1a2a9334879fb8ec041e1b31dd7))
+
 ### [0.0.3](https://github.com/PanYouFu/frontend-utils/compare/v0.0.2...v0.0.3) (2024-05-17)
 
 

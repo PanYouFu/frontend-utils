@@ -1,7 +1,7 @@
 {
   "name": "youfu-frontend-utils",
   "description": "使用rollup构建前端公共方法库",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/youfu-frontend-utils.esm.js",
   "commonjs": "dist/youfu-frontend-utils.cjs.js",
   "browser": "dist/youfu-frontend-utils.min.js",
